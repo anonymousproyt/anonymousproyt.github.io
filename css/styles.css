@@ -130,7 +130,7 @@ body{
     display: none;
     background-color: transparent;
     border: none;
-    outline: none;
+    outline: none !important;
     margin: 10px 10px;
 }
 
@@ -157,6 +157,14 @@ body{
 
 .pagination .page-item:hover .page-link{
     background-color: #007BFF;
+}
+
+.pagination .page-item{
+    outline: none !important;
+}
+
+.page-number{
+    display: none;
 }
 
 /* FOOTER */
