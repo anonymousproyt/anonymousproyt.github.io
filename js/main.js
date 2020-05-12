@@ -78,8 +78,8 @@ window.addEventListener('load', () => {
         for(var i = 0; i < jsonObj.juegos.length; i++){
             var juego = document.getElementById("juegocontenido" + (i+1));
             juego.style.display = "inline-block";
-            console.log(jsonObj.juegos[i]);
             document.getElementById("imagenjuegocontenido" + (i+1)).src=jsonObj.juegos[i].imagentapa;
+            document.getElementById("textojuegocontenido" + (i+1)).textContent=jsonObj.juegos[i].nombre;
         }
     }
     
