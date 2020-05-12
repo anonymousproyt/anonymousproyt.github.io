@@ -1,0 +1,170 @@
+/* GLOBALES */
+
+@font-face{
+    font-family: Blacklisted;
+    src: url(../fonts/blacklisted.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+    outline: none;
+}
+
+body{
+    background-color: #121212;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* BACKGROUNDS */
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-darkgray{
+    background-color: #2a2a2a;
+}
+
+.bg-graycontenido{
+    background-color: rgb(32, 32, 32);
+}
+
+.bg-graybuscador{
+    background-color: #1b1b1b;
+}
+
+
+/* BARRA SUPERIOR */
+
+#barra-superior{
+    z-index: 10;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+#barra-superior .nav-link{
+    color: #ccc;
+    font-size: 14px;
+    transition: color 300ms;
+}
+
+#barra-superior .nav-link:hover{
+    color: #f3f3f3;
+}
+
+#barra-superior .dropdown-item:hover{
+    background-color: #1b1b1b;
+}
+
+.font-blacklisted{
+    font-family: Blacklisted;
+}
+
+.borrar-contorno{
+    outline: none !important;
+    box-shadow: none;
+}
+
+.w-16px{
+    width: 16px;
+}
+
+.mb-3px{
+    margin-bottom: 3px;
+}
+
+
+/* CONTENIDO */
+
+/* CAROUSEL */
+
+.h-3px{
+    height: 3px;
+}
+
+.w-65{
+    width: 65%;
+}
+
+.w-45{
+    width: 45%;
+}
+
+.textShadow-normal{
+    box-shadow: 0 0 4px #000000;
+}
+
+.h-600px{
+    height: 600px;
+}
+
+.tamanio-mostrar-imagenes{
+    height: 300px;
+    width: 200px;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.h-300px{
+    height: 300px;
+}
+
+/* OPCIONES JUEGOS */
+
+#contenedorJuegos{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.opcionJuego{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: 10px 10px;
+}
+
+.opcionJuego .resaltado{
+    opacity: 0;
+    transition: opacity 400ms;
+}
+
+.opcionJuego:hover .resaltado{
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.w-200px{
+    width: 200px;
+}
+
+.h-50px{
+    height: 50px;
+}
+
+.pagination .page-item:hover .page-link{
+    background-color: #007BFF;
+}
+
+/* FOOTER */
+
+#footer-youtube{
+    background-color: transparent;
+    border: none;
+}
+
+#footer-youtube-imagen{
+    height: 30px;
+}

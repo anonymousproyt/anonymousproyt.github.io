@@ -1,0 +1,444 @@
+{
+  "genero": [
+    "accion",
+    "aventura",
+    "conduccion",
+    "deportes",
+    "estrategia",
+    "lucha",
+    "simulacion",
+    "rol",
+    "terror"
+  ],
+  "secciones": [
+    "ultimos",
+    "mejores",
+    "pocos recursos",
+    "emulados",
+    "indie",
+    "early access",
+    "plataformas"
+  ],
+  "juegos": [
+    {
+      "id": "1",
+      "nombre": "Call of Duty Mobile",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Call of Duty Mobile",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "nombre": "Call of Duty Mobile",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nombre": "Call of Duty Mobile 4",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "nombre": "Call of Duty Mobile",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "nombre": "Call of Duty Mobile",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "nombre": "Call of Duty Mobile 7",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "nombre": "Call of Duty Mobile",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "nombre": "Call of Duty Mobile 9",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "nombre": "Call of Duty Mobile",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "nombre": "Call of Duty Mobile",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "nombre": "Call of Duty Mobile 12",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "nombre": "Call of Duty Mobile",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "nombre": "Call of Duty Mobile",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "nombre": "Call of Duty Mobile 15",
+      "genero": [
+        "accion",
+        "simulacion"
+      ],
+      "fechalanzamiento": "05 de Abril de 2019",
+      "fechaactualizacion": "03 de Mayo de 2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles",
+      "tamanio": "24.5 Gigas",
+      "imagenes": [
+        "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
+      ],
+      "requisitos": "minimos recomendados",
+      "descargas": [
+        {
+          "version": "1.60 GOTY ElAmigos",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/dGx7f8",
+            "https://ouo.io/EZb6tb",
+            "https://ouo.io/dGx7f8"
+          ]
+        }
+      ]
+    }
+  ]
+}
