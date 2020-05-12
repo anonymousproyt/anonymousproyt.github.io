@@ -56,4 +56,34 @@ window.addEventListener('load', () => {
 
     /* FUNCIONES MENU PRINCIPAL */
 
+    // URL del JSON 
+    const requestURL = 'https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/json/general.json';
+    // Crear una solicitud
+    const request = new XMLHttpRequest();
+    // Abrir una nueva solicitud
+    request.open('GET', requestURL);
+    // XHR sabe que el servidor estará retornando JSON y que esto debería ser convertido en segundo plano en un objeto JavaScript
+    request.responseType = 'json';
+    // Envía la solicitud
+    request.send();
+    // Espera por la respuesta a retornar desde el servidor y luego, manejarla
+    request.onload = function() {
+        const myObj = JSON.parse(JSON.stringify(request.response));
+        poblarMenu(myObj);
+        
+    }
+
+    /* LLENA LOS JUEGOS DEL MENU PRINCIPAL CON LOS JUEGOS QUE ESTAN EN LA BASE DE DATOS JSON */
+    function poblarMenu(jsonObj){
+        for(var i = 0; i < jsonObj.juegos.length; i++){
+            var juego = document.getElementById("juegocontenido" + (i+1));
+            juego.style.display = "inline-block";
+            console.log(jsonObj.juegos[i]);
+            document.getElementById("imagenjuegocontenido" + (i+1)).src=jsonObj.juegos[i].imagentapa;
+        }
+    }
+    
+
+
+
 })

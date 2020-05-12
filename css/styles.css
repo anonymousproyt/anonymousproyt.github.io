@@ -127,6 +127,7 @@ body{
 }
 
 .opcionJuego{
+    display: none;
     background-color: transparent;
     border: none;
     outline: none;
