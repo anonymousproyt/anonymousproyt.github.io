@@ -23,6 +23,7 @@
     {
       "id": "1",
       "nombre": "Call of Duty Mobile 1",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -52,6 +53,7 @@
     {
       "id": "2",
       "nombre": "Call of Duty Mobile 2",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -81,6 +83,7 @@
     {
       "id": "3",
       "nombre": "Call of Duty Mobile 3",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -110,6 +113,7 @@
     {
       "id": "4",
       "nombre": "Call of Duty Mobile 4",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -139,6 +143,7 @@
     {
       "id": "5",
       "nombre": "Call of Duty Mobile 5",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -168,6 +173,7 @@
     {
       "id": "6",
       "nombre": "Call of Duty Mobile 6",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -197,6 +203,7 @@
     {
       "id": "7",
       "nombre": "Call of Duty Mobile 7",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -226,6 +233,7 @@
     {
       "id": "8",
       "nombre": "Call of Duty Mobile 8",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -255,6 +263,7 @@
     {
       "id": "9",
       "nombre": "Call of Duty Mobile 9",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -284,6 +293,7 @@
     {
       "id": "10",
       "nombre": "Call of Duty Mobile 10",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -313,6 +323,7 @@
     {
       "id": "11",
       "nombre": "Call of Duty Mobile 11",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -342,6 +353,7 @@
     {
       "id": "12",
       "nombre": "Call of Duty Mobile 12",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -371,6 +383,7 @@
     {
       "id": "13",
       "nombre": "Call of Duty Mobile 13",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -400,6 +413,7 @@
     {
       "id": "14",
       "nombre": "Call of Duty Mobile 14",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -429,6 +443,7 @@
     {
       "id": "15",
       "nombre": "Call of Duty Mobile 15",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -458,6 +473,7 @@
     {
       "id": "16",
       "nombre": "Call of Duty Mobile 16",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -487,6 +503,7 @@
     {
       "id": "17",
       "nombre": "Call of Duty Mobile 17",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -516,6 +533,7 @@
     {
       "id": "18",
       "nombre": "Call of Duty Mobile 18",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -545,6 +563,7 @@
     {
       "id": "19",
       "nombre": "Call of Duty Mobile 19",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -574,6 +593,7 @@
     {
       "id": "20",
       "nombre": "Call of Duty Mobile 20",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -603,6 +623,7 @@
     {
       "id": "21",
       "nombre": "Call of Duty Mobile 21",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -632,6 +653,7 @@
     {
       "id": "22",
       "nombre": "Call of Duty Mobile 22",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -661,6 +683,7 @@
     {
       "id": "23",
       "nombre": "Call of Duty Mobile 23",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -690,6 +713,7 @@
     {
       "id": "24",
       "nombre": "Call of Duty Mobile 24",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -719,6 +743,7 @@
     {
       "id": "25",
       "nombre": "Call of Duty Mobile 25",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -748,6 +773,7 @@
     {
       "id": "26",
       "nombre": "Call of Duty Mobile 26",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -777,6 +803,7 @@
     {
       "id": "27",
       "nombre": "Call of Duty Mobile 27",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -806,6 +833,7 @@
     {
       "id": "28",
       "nombre": "Call of Duty Mobile 28",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -835,6 +863,7 @@
     {
       "id": "29",
       "nombre": "Call of Duty Mobile 29",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -864,6 +893,7 @@
     {
       "id": "30",
       "nombre": "Call of Duty Mobile 30",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -893,6 +923,7 @@
     {
       "id": "31",
       "nombre": "Call of Duty Mobile 31",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -922,6 +953,7 @@
     {
       "id": "32",
       "nombre": "Call of Duty Mobile 32",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -951,6 +983,7 @@
     {
       "id": "33",
       "nombre": "Call of Duty Mobile 33",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -980,6 +1013,7 @@
     {
       "id": "34",
       "nombre": "Call of Duty Mobile 34",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"
@@ -1009,6 +1043,7 @@
     {
       "id": "35",
       "nombre": "Call of Duty Mobile 35",
+      "descripcion": "descripcionjuego",
       "genero": [
         "accion",
         "simulacion"

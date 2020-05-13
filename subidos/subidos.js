@@ -25,24 +25,15 @@ window.addEventListener('load', () => {
 
     /* LLENA LOS JUEGOS DEL MENU PRINCIPAL CON LOS JUEGOS QUE ESTAN EN LA BASE DE DATOS JSON */
     function poblarMenu(jsonObj){
-        // Si esta en el index general
-        if(location.pathname.substring(location.pathname.lastIndexOf('/') + 1, location.pathname.length) == "index.html"){
-            for(var i = 0; (i < 16) && (i < jsonObj.juegos.length - 1) ; i++){
-                document.getElementById("juegocontenido" + (i+1)).style.display = "inline-block";
-                document.getElementById("imagenjuegocontenido" + (i+1)).src = jsonObj.juegos[(jsonObj.juegos.length - 1) - i].imagentapa;
-                document.getElementById("textojuegocontenido" + (i+1)).textContent = jsonObj.juegos[(jsonObj.juegos.length - 1) - i].nombre;
-            }
-        // Si esta en cualquier otra pagina
-        }else{
-            // Contiene el numero de pagina actual
-            var pagActual = location.pathname.substring(location.pathname.lastIndexOf('/') + 1, location.pathname.lastIndexOf('.'));
+        // Contiene el numero de pagina actual
+        var pagActual = location.pathname.substring(location.pathname.lastIndexOf('/') + 1, location.pathname.lastIndexOf('.'));
 
-            for(var i = 1; (i < 16) && (((jsonObj.juegos.length - (16 * (pagActual - 1))) - i) >= 0) ; i++){
-                document.getElementById("juegocontenido" + i).style.display = "inline-block";
-                document.getElementById("imagenjuegocontenido" + i).src = jsonObj.juegos[(jsonObj.juegos.length - (16 * (pagActual - 1))) - i].imagentapa;
-                document.getElementById("textojuegocontenido" + i).textContent = jsonObj.juegos[(jsonObj.juegos.length - (16 * (pagActual - 1))) - i].nombre;
-            }
+        for(var i = 1; (i <= 16) && (((jsonObj.juegos.length - (16 * (pagActual - 1))) - i) >= 0) ; i++){
+            document.getElementById("juegocontenido" + i).style.display = "inline-block";
+            document.getElementById("imagenjuegocontenido" + i).src = jsonObj.juegos[(jsonObj.juegos.length - (16 * (pagActual - 1))) - i].imagentapa;
+            document.getElementById("textojuegocontenido" + i).textContent = jsonObj.juegos[(jsonObj.juegos.length - (16 * (pagActual - 1))) - i].nombre;
         }
+        
     }
 
     function cargarPaginacion(jsonObj) { 
@@ -57,6 +48,21 @@ window.addEventListener('load', () => {
                 document.getElementById("textopageopcion" + (i+1)).setAttribute('href', location.pathname.substring(0, location.pathname.lastIndexOf('/')).substring(0, location.pathname.substring(0, location.pathname.lastIndexOf('/')).lastIndexOf('/') + 1) + "index.html");
             }else{ // Si tiene que ir a otra pagina normal
                 document.getElementById("textopageopcion" + (i+1)).setAttribute('href', location.pathname.substring(0, location.pathname.lastIndexOf('/') + 1)+(i+1)+".html");
+            }
+        }
+        var pagActual = location.pathname.substring(location.pathname.lastIndexOf('/') + 1, location.pathname.lastIndexOf('.'));
+        if(pagActual > 1){
+            // Opcion izquierda
+            if(pagActual == 2){
+                document.getElementById("pageopcioni").setAttribute('href', location.pathname.substring(0, location.pathname.lastIndexOf('/')).substring(0, location.pathname.substring(0, location.pathname.lastIndexOf('/')).lastIndexOf('/') + 1) + "index.html");
+            }else{
+                document.getElementById("pageopcioni").setAttribute('href', location.pathname.substring(0, location.pathname.lastIndexOf('/') + 1) + (pagActual-1)+".html");
+            }
+            // Opcion derecha
+            if(pagActual != ((Math.floor(jsonObj.juegos.length / 16)) + 1)){
+                document.getElementById("pageopciond").setAttribute('href', location.pathname.substring(0, location.pathname.lastIndexOf('/') + 1) + (parseInt(pagActual)+1)+".html");
+            }else{
+                document.getElementById("pageopciond").setAttribute('href', location.pathname.substring(0, location.pathname.lastIndexOf('/') + 1) + (pagActual)+".html");
             }
         }
     }

@@ -177,3 +177,30 @@ body{
 #footer-youtube-imagen{
     height: 30px;
 }
+
+.w-53{
+    width: 53%;
+}
+
+.w-37{
+    width: 37%;
+}
+
+.w-40px{
+    width: 40px;
+}
+
+.mt-6{
+    margin-top: 70px;
+}
+
+.px-6{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.imagenesJuego{
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+}
