@@ -118,6 +118,10 @@ body{
     height: 300px;
 }
 
+.w-13{
+    width: 13%;
+}
+
 /* OPCIONES JUEGOS */
 
 #contenedorJuegos{

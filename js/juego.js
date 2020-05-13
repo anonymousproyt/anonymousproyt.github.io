@@ -23,7 +23,6 @@ window.addEventListener('load', () => {
     request.send();
     // Espera por la respuesta a retornar desde el servidor y luego, manejarla
     request.onload = function() {
-        console.log("aa");
         const myObj = JSON.parse(JSON.stringify(request.response));
         var juego = buscarJuego(myObj);
         cargarDatos(juego);
@@ -44,7 +43,6 @@ window.addEventListener('load', () => {
 
     // Carga los datos en pantalla con los datos del juego
     function cargarDatos(juego){
-        console.log(juego);
         // Imagen tapa
         document.getElementById("imagentapa").src = juego.imagentapa;
         // Nombre
@@ -156,6 +154,13 @@ window.addEventListener('load', () => {
         document.getElementById("requisitos").textContent = juego.requisitos;
         // Descripción
         document.getElementById("descripcion").textContent = juego.descripcion;
+        // Imagenes
+        console.log(juego.imagenes.length);
+        for(var i=0;i < 4;i++){
+            if(i < juego.imagenes.length){
+                document.getElementById("imagen" + (i+1)).src = juego.imagenes[i];
+            }
+        }
         // Version
         document.getElementById("version").textContent = juego.descargas["0"].version;
         // Descripcion version
