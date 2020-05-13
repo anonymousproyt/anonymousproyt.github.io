@@ -1055,9 +1055,12 @@
       "idiomavoces": "Ingles",
       "idiomatextos": "Español, Ingles, Portugués, Francés, Alemán, Italiano",
       "tamanio": "2.03 Gigas",
-      "imagentapa": "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/tapas/1.jpg",
+      "imagentapa": "./images/tapas/35.jpg",
       "imagenes": [
-        ""
+        "./images/juegos/35/1.jpg",
+        "./images/juegos/35/2.jpg",
+        "./images/juegos/35/3.jpg",
+        "./images/juegos/35/4.jpg"
       ],
       "requisitos": "Mínimos:<br>Sistema Operativo: Windows 7 (Solo funciona sobre 64 bits)<br>Procesador: Intel Core i5<br>Memoria: 8 Gigas de RAM<br>Gráficos: NVidia GeForce GTX 750<br>DirectX: Versión 10<br>Almacenamiento: 5 Giga de espacio disponible<br>Tarjeta de sonido: DirectX compatible<br><br>Recomendados:<br>Sistema Operativo: Windows 10 de 64 bits<br>Procesador: Intel Core i7<br>Memoria: 8 Gigas de RAM<br>Gráficos: NVidia GeForce GTX 1050<br>DirectX: Versión 10<br>Almacenamiento: 5 Gigas de espacio disponible<br>Tarjeta de sonido: DirectX compatible",
       "descargas": [

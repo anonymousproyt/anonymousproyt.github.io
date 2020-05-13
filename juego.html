@@ -9,6 +9,7 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
 
         <!-- Mis Scripts -->
+        <script type="text/javascript" src="./json/general.json"></script>
         <script type="text/javascript" src="./js/juego.js"></script>
     </head>
     <body>
@@ -71,7 +72,7 @@
         <div class="w-65 mx-auto bg-graycontenido mb-4 rounded-bottom">
             <div class="py-5 px-4">
                 <div class="d-flex justify-content-center">
-                    <img id="imagentapa" class="tamanioOpcion mr-4 my-auto shadow" src="./images/tapas/1.jpg" alt="tapaJuego">
+                    <img id="imagentapa" class="tamanioOpcion mr-4 my-auto shadow" src="./images/tapas/35.jpg" alt="tapaJuego">
                     <div class="align-middle my-auto w-53">
                         <h3 id="nombre" class="my-2 font-weight-bolder"></h3>
                         <div class="d-flex">
@@ -95,57 +96,57 @@
                     </div>
                 </div>
                 <p class="text-center mt-4"><strong>Requisitos:</strong><br></p>
-                <p id="requisitos" class="text-center"></p>
+                <p id="requisitos" class="text-center respetarSaltosDeLinea"></p>
                 <p class="mt-5 mb-0"><strong>Descripción:</strong></p>
-                <p id="descripcion"></p>
+                <p id="descripcion" class="respetarSaltosDeLinea"></p>
                 <div id="carouselExampleControls" class="carousel slide h-300px mt-5" data-ride="carousel">
                     <div class="carousel-inner h-300px">
-                      <div class="carousel-item active h-300px">
-                        <div class="d-flex align-items-center justify-content-center align-middle my-auto h-100">
-                            <div class="mr-2 overflow-hidden w-45 imagenesJuego">
-                                <img id="imagen1" class="w-100 h-100" src="./images/1.jpg" alt="">
-                            </div>
-                            <div class="ml-2 overflow-hidden w-45 imagenesJuego">
-                                <img id="imagen2" class="w-100 h-100" src="./images/2.jpg" alt="">
-                            </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item h-300px">
-                        <div class="d-flex align-items-center justify-content-center align-middle my-auto h-100">
-                            <div class="mr-2 overflow-hidden w-45 imagenesJuego">
-                                <img id="imagen3" class="w-100 h-100" src="./images/3.jpg" alt="">
-                            </div>
-                            <div class="ml-2 overflow-hidden w-45 imagenesJuego">
-                                <img id="imagen4" class="w-100 h-100" src="./images/4.jpg" alt="">
+                        <div id="carouselparte1" class="carousel-item active h-300px">
+                            <div class="d-flex align-items-center justify-content-center align-middle my-auto h-100">
+                                <div class="mr-2 overflow-hidden w-45 imagenesJuego">
+                                    <img id="imagen1" class="w-100 h-100" src="" alt="">
+                                </div>
+                                <div class="ml-2 overflow-hidden w-45 imagenesJuego">
+                                    <img id="imagen2" class="w-100 h-100" src="" alt="">
+                                </div>
                             </div>
                         </div>
-                      </div>
-                      <div class="carousel-item h-300px">
-                        <div class="d-flex align-items-center justify-content-center align-middle my-auto h-100">
-                            <div class="mr-2 overflow-hidden w-45 imagenesJuego">
-                                <img id="imagen5" class="w-100 h-100" src="./images/5.jpg" alt="">
-                            </div>
-                            <div class="ml-2 overflow-hidden w-45 imagenesJuego">
-                                <img id="imagen6" class="w-100 h-100" src="./images/6.jpg" alt="">
+                        <div id="carouselparte2" class="carousel-item h-300px">
+                            <div class="d-flex align-items-center justify-content-center align-middle my-auto h-100">
+                                <div class="mr-2 overflow-hidden w-45 imagenesJuego">
+                                    <img id="imagen3" class="w-100 h-100" src="" alt="">
+                                </div>
+                                <div class="ml-2 overflow-hidden w-45 imagenesJuego">
+                                    <img id="imagen4" class="w-100 h-100" src="" alt="">
+                                </div>
                             </div>
                         </div>
-                      </div>
+                        <div id="carouselparte3" class="carousel-item h-300px">
+                            <div class="d-flex align-items-center justify-content-center align-middle my-auto h-100">
+                                <div class="mr-2 overflow-hidden w-45 imagenesJuego">
+                                    <img id="imagen5" class="w-100 h-100" src="" alt="">
+                                </div>
+                                <div class="ml-2 overflow-hidden w-45 imagenesJuego">
+                                    <img id="imagen6" class="w-100 h-100" src="" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <a class="carousel-control-prev w-40px" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Anterior</span>
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
                     </a>
                     <a class="carousel-control-next w-40px" href="#carouselExampleControls" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Siguiente</span>
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
                     </a>
-                  </div>
+                </div>
                 <div class="mt-6 d-flex align-items-center justify-content-center text-center">
                     <h4 class="px-6 py-3 text-center bg-darkgray rounded">DESCARGAR</h4>
                 </div>
                 <div class="w-45 border border-dark rounded mx-auto mb-5">
                     <h5 id="version" class="px-2 py-2 mb-0 text-center"></h5>
-                    <p id="descripcionversion" class="px-2 py-2 mb-0 text-center"></p>
+                    <p id="descripcionversion" class="px-2 py-2 mb-0 text-center respetarSaltosDeLinea"></p>
                     <a class="btn btn-primary d-flex align-items-center justify-content-center text-center mt-2" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                         Ver links
                     </a>
