@@ -37,7 +37,7 @@
       "imagenes": [
         "https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/images/1.jpg"
       ],
-      "requisitos": "Sistema Operativo: Windows 7 Vista SP2 <br>Procesador: Intel Core2 Duo E8200 2.66 GHz / AMD Phenom X3 8750 2.4 GHz<br>Memoria: 2GB (32-bit), 4GB (64-bit)<br>Disco Duro: 16 GB de espacio libre<br>Tarjeta gráfica: Nvidia GeForce 8800GT 512 MB / ATI Radeon HD 3870 512 MB compatible con DirectX 9.0c<br>Tarjeta de Sonido: compatible con DirectX 9.0c<br>DirectX®: 9.0c<br>",
+      "requisitos": "Sistema Operativo: Windows 7 Vista SP2 \nProcesador: Intel Core2 Duo E8200 2.66 GHz / AMD Phenom X3 8750 2.4 GHz\nMemoria: 2GB (32-bit), 4GB (64-bit)\nDisco Duro: 16 GB de espacio libre\nTarjeta gráfica: Nvidia GeForce 8800GT 512 MB / ATI Radeon HD 3870 512 MB compatible con DirectX 9.0c\nTarjeta de Sonido: compatible con DirectX 9.0c\nDirectX®: 9.0c\n",
       "descargas": [
         {
           "version": "1.60 GOTY ElAmigos",
@@ -1043,7 +1043,7 @@
     {
       "id": "35",
       "nombre": "Thief Simulator",
-      "descripcion": "Conviértete en un ladrón de verdad, Observa tu objetivo y reúne información que pueda ayudarte para llevar tu robo a cabo, Toma los desafíos y roba las casas mas seguros, compra tecnología de punta para robos y aprende nuevos trucos de ladrones, Vende las cosas que robas y haz cualquier cosa que solo un ladrón de verdad hace.<br>Un buen ladrón siempre observa su objetivo, ¿Que hay dentro? ¿Quien vive ahí? ¿A que horas del día salen las personas?, descubre cuando la casa esta vacía y si el vecindario tiene vecinos bullosos. Recuerda que hay muchos dispositivos modernos disponibles en Thief Simulator para hacer mucho mas sencillo el proceso de inteligencia para llevar a cabo tu robo.",
+      "descripcion": "Conviértete en un ladrón de verdad, Observa tu objetivo y reúne información que pueda ayudarte para llevar tu robo a cabo, Toma los desafíos y roba las casas mas seguros, compra tecnología de punta para robos y aprende nuevos trucos de ladrones, Vende las cosas que robas y haz cualquier cosa que solo un ladrón de verdad hace.\nUn buen ladrón siempre observa su objetivo, ¿Que hay dentro? ¿Quien vive ahí? ¿A que horas del día salen las personas?, descubre cuando la casa esta vacía y si el vecindario tiene vecinos bullosos. Recuerda que hay muchos dispositivos modernos disponibles en Thief Simulator para hacer mucho mas sencillo el proceso de inteligencia para llevar a cabo tu robo.",
       "genero": [
         "accion",
         "aventura",
@@ -1062,7 +1062,7 @@
         "./images/juegos/35/3.jpg",
         "./images/juegos/35/4.jpg"
       ],
-      "requisitos": "Mínimos:<br>Sistema Operativo: Windows 7 (Solo funciona sobre 64 bits)<br>Procesador: Intel Core i5<br>Memoria: 8 Gigas de RAM<br>Gráficos: NVidia GeForce GTX 750<br>DirectX: Versión 10<br>Almacenamiento: 5 Giga de espacio disponible<br>Tarjeta de sonido: DirectX compatible<br><br>Recomendados:<br>Sistema Operativo: Windows 10 de 64 bits<br>Procesador: Intel Core i7<br>Memoria: 8 Gigas de RAM<br>Gráficos: NVidia GeForce GTX 1050<br>DirectX: Versión 10<br>Almacenamiento: 5 Gigas de espacio disponible<br>Tarjeta de sonido: DirectX compatible",
+      "requisitos": "Mínimos:\nSistema Operativo: Windows 7 (Solo funciona sobre 64 bits)\nProcesador: Intel Core i5\nMemoria: 8 Gigas de RAM\nGráficos: NVidia GeForce GTX 750\nDirectX: Versión 10\nAlmacenamiento: 5 Giga de espacio disponible\nTarjeta de sonido: DirectX compatible\n\nRecomendados:\nSistema Operativo: Windows 10 de 64 bits\nProcesador: Intel Core i7\nMemoria: 8 Gigas de RAM\nGráficos: NVidia GeForce GTX 1050\nDirectX: Versión 10\nAlmacenamiento: 5 Gigas de espacio disponible\nTarjeta de sonido: DirectX compatible",
       "descargas": [
         {
           "version": "Versión 1.4.2",
