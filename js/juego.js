@@ -23,6 +23,7 @@ window.addEventListener('load', () => {
     request.send();
     // Espera por la respuesta a retornar desde el servidor y luego, manejarla
     request.onload = function() {
+        console.log("aa");
         const myObj = JSON.parse(JSON.stringify(request.response));
         var juego = buscarJuego(myObj);
         cargarDatos(juego);
