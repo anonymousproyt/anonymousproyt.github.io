@@ -147,6 +147,11 @@ body{
     position: absolute;
 }
 
+.tamanioOpcion{
+    width: 200px;
+    height: 300px;
+}
+
 .w-200px{
     width: 200px;
 }
