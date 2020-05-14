@@ -155,7 +155,6 @@ window.addEventListener('load', () => {
         // Descripción
         document.getElementById("descripcion").textContent = juego.descripcion;
         // Imagenes
-        console.log(juego.imagenes.length);
         for(var i=0;i < 4;i++){
             if(i < juego.imagenes.length){
                 document.getElementById("imagen" + (i+1)).src = juego.imagenes[i];

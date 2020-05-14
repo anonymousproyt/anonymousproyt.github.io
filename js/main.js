@@ -128,7 +128,38 @@ window.addEventListener('load', () => {
 })
 
 
-/* EVENTO QUE SE LLAMA AL HACER CLICK */
+/* EVENTO QUE SE LLAMA AL HACER CLICK EN UN JUEGO */
 function irAJuego(idjuego) {
     window.location.href = "juego.html?name=" + document.getElementById("textojuegocontenido" + idjuego).textContent;
+}
+
+/* EVENTO QUE SE LLAMA AL HACER CLICK EN UN JUEGO DESTACADO */
+function irAJuegoDestacado(posicionDestacado){
+    
+    // URL del JSON 
+    const requestURL = 'https://raw.githubusercontent.com/anonymousproyt/anonymousproyt.github.io/master/json/general.json';
+    // Crear una solicitud
+    const request = new XMLHttpRequest();
+    // Abrir una nueva solicitud
+    request.open('GET', requestURL);
+    // XHR sabe que el servidor estará retornando JSON y que esto debería ser convertido en segundo plano en un objeto JavaScript
+    request.responseType = 'json';
+    // Envía la solicitud
+    request.send();
+    // Espera por la respuesta a retornar desde el servidor y luego, manejarla
+    request.onload = function() {
+        const myObj = JSON.parse(JSON.stringify(request.response));
+        var src = document.getElementById("juegoDestacado" + posicionDestacado).src;
+        var urlSinParteFinal = (src.substring(0,src.lastIndexOf(src.substring(src.lastIndexOf('/'),src.length))));
+        var idjuego = urlSinParteFinal.substring(urlSinParteFinal.lastIndexOf('/')+1, urlSinParteFinal.length);
+        window.location.href = "juego.html?name=" + myObj.juegos[idjuego-1].nombre;
+    }
+}
+
+
+/* EVENTO QUE SE LLAMA AL HACER CLICK EN BUSCAR JUEGO */
+function buscar() {
+    console.log(document.getElementById("textoBuscarJuego").value);
+    window.location.href = "buscar.html?tag=" + document.getElementById("textoBuscarJuego").value;
+    document.getElementById("textoBuscarJuego").value = "";
 }

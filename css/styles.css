@@ -80,6 +80,14 @@ body{
     margin-bottom: 3px;
 }
 
+#textoBuscarJuego:-webkit-autofill,
+#textoBuscarJuego:-webkit-autofill:hover,
+#textoBuscarJuego:-webkit-autofill:focus,
+#textoBuscarJuego:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+
 
 /* CONTENIDO */
 
