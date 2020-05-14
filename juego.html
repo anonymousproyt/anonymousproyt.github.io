@@ -21,22 +21,22 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a id="irAInicio" class="text-white text-decoration-none font-blacklisted ml-2" href="#">Anonymous Pro</a>
+                <a id="irAInicio" class="text-white text-decoration-none font-blacklisted ml-2 notranslate" href="./index.html">Anonymous Pro</a>
                 <ul class="navbar-nav ml-3 mr-auto mt-2 mt-lg-0">
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             GENERO
                         </a>
                         <div class="dropdown-menu bg-darkgray" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-white" href="#">Acción</a>
-                            <a class="dropdown-item text-white" href="#">Aventura</a>
-                            <a class="dropdown-item text-white" href="#">Conducción</a>
-                            <a class="dropdown-item text-white" href="#">Deportes</a>
-                            <a class="dropdown-item text-white" href="#">Estrategia</a>
-                            <a class="dropdown-item text-white" href="#">Lucha</a>
-                            <a class="dropdown-item text-white" href="#">Simulación</a>
-                            <a class="dropdown-item text-white" href="#">Rol</a>
-                            <a class="dropdown-item text-white" href="#">Terror</a>
+                            <a class="dropdown-item text-white" href="./genero/accion/1.html">Acción</a>
+                            <a class="dropdown-item text-white" href="./genero/aventura/1.html">Aventura</a>
+                            <a class="dropdown-item text-white" href="./genero/conduccion/1.html">Conducción</a>
+                            <a class="dropdown-item text-white" href="./genero/deportes/1.html">Deportes</a>
+                            <a class="dropdown-item text-white" href="./genero/estrategia/1.html">Estrategia</a>
+                            <a class="dropdown-item text-white" href="./genero/lucha/1.html">Lucha</a>
+                            <a class="dropdown-item text-white" href="./genero/simulacion/1.html">Simulación</a>
+                            <a class="dropdown-item text-white" href="./genero/rol/1.html">Rol</a>
+                            <a class="dropdown-item text-white" href="./genero/terror/1.html">Terror</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -44,23 +44,20 @@
                             SECCIONES
                         </a>
                         <div class="dropdown-menu bg-darkgray" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-white" href="#">Ultimos</a>
-                            <a class="dropdown-item text-white" href="#">Mejores</a>
-                            <a class="dropdown-item text-white" href="#">Pocos recursos</a>
-                            <a class="dropdown-item text-white" href="#">Emulados</a>
-                            <a class="dropdown-item text-white" href="#">Indie</a>
-                            <a class="dropdown-item text-white" href="#">Early Access</a>
-                            <a class="dropdown-item text-white" href="#">Plataformas</a>
+                            <a class="dropdown-item text-white" href="./secciones/ultimos/1.html">Ultimos</a>
+                            <a class="dropdown-item text-white" href="./secciones/mejores/1.html">Mejores</a>
+                            <a class="dropdown-item text-white" href="./secciones/pocosrecursos/1.html">Pocos recursos</a>
+                            <a class="dropdown-item text-white" href="./secciones/emulados/1.html">Emulados</a>
+                            <a class="dropdown-item text-white" href="./secciones/indie/1.html">Indie</a>
+                            <a class="dropdown-item text-white" href="./secciones/early access/1.html">Early Access</a>
+                            <a class="dropdown-item text-white" href="./secciones/plataformas/1.html">Plataformas</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">COMO DESCARGAR</a>
-                    </li>
                 </ul>
-                <form class="form-inline mr-2 my-2 my-lg-0 bg-graybuscador rounded p-1">
-                    <input class="ml-2 mr-sm-2 bg-transparent border-0 text-white borrar-contorno" type="text" placeholder="Buscar" value="">
-                    <button class="bg-transparent border-0 borrar-contorno mr-2" type="submit"><img class="w-16px mb-3px" src="./icons/search.svg" alt="Lupa"/></button>
-                </form>
+                <div class="mr-2 my-2 my-lg-0 bg-graybuscador rounded p-1">
+                    <input id="textoBuscarJuego" class="ml-2 mr-sm-2 bg-transparent border-0 text-white borrar-contorno" type="text" placeholder="Buscar">
+                    <button class="bg-transparent border-0 borrar-contorno mr-2" onclick="buscar()"><img class="w-16px mb-3px" src="./icons/search.svg" alt="Lupa"/></button>
+                </div>
                 </div>
             </div>
         </nav>
