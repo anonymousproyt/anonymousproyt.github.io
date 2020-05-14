@@ -57,6 +57,8 @@ window.addEventListener('load', () => {
         crsl.carousel('next');
     });
 
+
+
     /* FIN CAROUSEL DESTACADOS */
 
 
@@ -78,13 +80,22 @@ window.addEventListener('load', () => {
     // Espera por la respuesta a retornar desde el servidor y luego, manejarla
     request.onload = function() {
         const myObj = JSON.parse(JSON.stringify(request.response));
+        cargarDestacados(myObj);
         poblarMenu(myObj);
         cargarPaginacion(myObj);
     }
 
+
+    /* CARGAR MENU DESTACADOS */
+    function cargarDestacados(jsonObj) {
+
+    }
+
     /* LLENA LOS JUEGOS DEL MENU PRINCIPAL CON LOS JUEGOS QUE ESTAN EN LA BASE DE DATOS JSON */
     function poblarMenu(jsonObj){
+        console.log(jsonObj);
         for(var i = 0; (i < 16) && (i < jsonObj.juegos.length) ; i++){
+            console.log(i)
             document.getElementById("juegocontenido" + (i+1)).style.display = "inline-block";
             document.getElementById("imagenjuegocontenido" + (i+1)).src = jsonObj.juegos[(jsonObj.juegos.length - 1) - i].imagentapa;
             document.getElementById("textojuegocontenido" + (i+1)).textContent = jsonObj.juegos[(jsonObj.juegos.length - 1) - i].nombre;
