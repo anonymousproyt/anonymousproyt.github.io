@@ -251,7 +251,7 @@
     },
     {
       "id": "8",
-      "destacado": "si",
+      "destacado": "no",
       "nombre": "Raft",
       "descripcion": "Descarga el videojuego de supervivencia llamado Raft, el cual nos pone en la piel de un náufrago en medio del océano que debe hacer todo lo que se encuentre a su alcance por salir adelante sin más recursos que un pequeño bote salvavidas y un garfio de plástico. A partir de tan escasos recursos debemos levantar nuestra propia base marina y tratar de pescar, construir la superficie de nuestro complejo y levantar todo lo que podemos necesitar para subsistir.\nLos recursos son difíciles de encontrar en el mar, Los jugadores tendrán que asegurarte de agarrar cualquier escombro que flote; Sin embargo la sed y el hambre no son el único peligro en el océano, pon mucho cuidado con el tiburón come-hombres que esta determinado a terminar con tu viaje.",
       "genero": [

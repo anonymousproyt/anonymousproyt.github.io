@@ -105,6 +105,10 @@ body{
     height: 600px;
 }
 
+.h-450px{
+    height: 450px;
+}
+
 .tamanio-mostrar-imagenes{
     height: 300px;
     width: 200px;
