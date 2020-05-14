@@ -56,7 +56,7 @@
     },
     {
       "id": "2",
-      "destacado": "si",
+      "destacado": "no",
       "nombre": "Drug Dealer Simulator",
       "descripcion": "Comienza tu historia en un pequeño y sucio escondite y ábrete camino para controlar el territorio, contratando a tus propios esbirros y haciendo negocios peligrosos. Conviértete en el cerebro de un negocio callejero o en un despiadado gánster, ¡de ti depende!\nEn este mundo no sólo buscas poder, dinero y respeto. Ten cuidado con tus acciones, ya que puedes hacer aliados poderosos o enemigos vengativos… o ambos. ¡No jodas a tus clientes… o al menos demasiado, coopera con la gente adecuada, no te dejes atrapar y puede que vivas lo suficiente, para gastar tu fortuna!",
       "genero": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "4",
-      "destacado": "si",
+      "destacado": "no",
       "nombre": "Resident Evil 2 Remake",
       "descripcion": "Leon S. Kennedy y Claire Redfield regresan una vez más en una edición espectacular, un remake que enmarca los nuevos aspectos gráficos del clásico juego. El terror llena a Raccoon City la cual se encuentra invadida por los muertos vivientes. Juega campañas individuales tanto para Leon Kennedy como para Claire Redfield con una flamante nueva vista en tercera persona mientras exploras las áreas infestadas de zombis de Raccoon City, ahora reconstruido espectacularmente con el motor RE Engine de Capcom. Nuevos rompecabezas, tramas y áreas para que tanto los nuevos fans como los más veteranos descubran terroríficas nuevas sorpresas.",
       "genero": [
@@ -154,7 +154,7 @@
     },
     {
       "id": "5",
-      "destacado": "si",
+      "destacado": "no",
       "nombre": "Remnant From the Ashes",
       "descripcion": "Remnant: From the Ashes es un juego de supervivencia en tercera persona ambientado en un mundo postapocalíptico infestado de criaturas monstruosas. Como superviviente de la humanidad, te embarcarás en una aventura a solas o en compañía de grupos de hasta tres jugadores para enfrentarte a hordas de enemigos mortales y aterradores jefes finales, con el fin de reconquistar y reconstruir aquello que la humanidad ya daba por perdido.\nUnas fuerzas malignas de otra dimensión han sumido al mundo en un caos absoluto. Los humanos se encuentran al borde de la extinción, pero poseen una tecnología que les permite abrir portales a otros mundos y realidades alternativas. Viajando a través de estos portales, intentarán desvelar los orígenes de la criatura invasora, buscar recursos para sobrevivir y luchar para reconstruir el legado de la humanidad.",
       "genero": [
@@ -186,7 +186,7 @@
     },
     {
       "id": "6",
-      "destacado": "si",
+      "destacado": "no",
       "nombre": "Terminator: Resistance",
       "descripcion": "Revive los sucesos previos a la batalla final que decidirá el destino de la humanidad en su lucha contra las máquinas. Terminator: Resistance es un shooter en primera persona basado en la época de «Future War», sobre la cual pudimos descubrir algunos detalles gracias a las legendarias películas «TERMINATOR» y «T2: Judgment Day«. Las máquinas están destinadas a la derrota, ¿pero a qué precio?",
       "genero": [
@@ -218,7 +218,7 @@
     },
     {
       "id": "7",
-      "destacado": "si",
+      "destacado": "no",
       "nombre": "State of Decay 2",
       "descripcion": "En State of Decay 2, tu base es mucho más que un lugar para que los supervivientes duerman por la noche. Es tu santuario, que ofrece protección contra los hambrientos muertos que acechan más allá del muro. Es tu puesto de mando, donde planeas la estrategia perfecta para matar zombis. Y sobre todo, es una manifestación de tus estrategias personales de supervivencia a largo plazo, que personalizas con tus instalaciones y mejoras idóneas. ¿Construirás una atalaya o plantarás un jardín? ¿Una enfermería o un taller? ¿Cómo decidirás labrar una pequeña civilización en las cenizas de un caótico apocalipsis?",
       "genero": [
@@ -282,7 +282,7 @@
     },
     {
       "id": "9",
-      "destacado": "si",
+      "destacado": "no",
       "nombre": "Subnautica",
       "descripcion": "Es una aventura de mundo abierto ambientado en las profundidades oceánicas en el que podremos construir y gestionar nuestro propio mundo submarino. Su historia inicia tras un aterrizaje forzoso en un planeta desconocido, tendremos que aventurarnos en lo más profundo del mar para sobrevivir, pero no sera nada sencillo ya que los habitantes submarinos son criaturas alienigenas bastante terribles.",
       "genero": [
@@ -345,7 +345,7 @@
     },
     {
       "id": "11",
-      "destacado": "si",
+      "destacado": "no",
       "nombre": "American Truck Simulator",
       "descripcion": "American Truck Simulator es un juego independiente y de simulación en donde tendrás la experiencia de conducir los grandes camiones y legendarios con cargamentos a través de la soleada ciudad de California. American Truck Simulator te lleva en un viaje a través de los impresionantes paisajes y monumentos reconocidos en todo los Estados Unidos. Encuentra nuevas características y nuevas herramientas para cumplir el mercado de fletes locales y ser parte de una de las mayores empresas de transporte en los Estados Unidos.",
       "genero": [
@@ -377,7 +377,7 @@
     },
     {
       "id": "12",
-      "destacado": "si",
+      "destacado": "no",
       "nombre": "Euro Truck Simulator",
       "descripcion": "Comenzamos con €100000 para gastarlos en un nuevo y bonito camión. Luego, para ganar dinero y hacer mejoras o comprar nuevos vehículos, tendremos que ir hasta los depósitos de las diferentes ciudades (no muestra toda la ciudad, sino solo 3 calles como para que podamos ir a los depósitos) a buscar mercadería. Las diferentes empresas nos pagarán por hacer los envios, pero se nos descontará dinero por golpear el trailer con el cargamento o cometer infracciones de tránsito, tales como pasar semáforos en rojo, exceso de velocidad, etc.",
       "genero": [

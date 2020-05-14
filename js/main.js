@@ -88,14 +88,18 @@ window.addEventListener('load', () => {
 
     /* CARGAR MENU DESTACADOS */
     function cargarDestacados(jsonObj) {
-
+        var contador = 0;
+        for(var i = (jsonObj.juegos.length - 1);(i >= 0) && (contador < 3);i--){
+            if(jsonObj.juegos[i].destacado == "si"){
+                document.getElementById("juegoDestacado" + (contador+1)).src = jsonObj.juegos[i].imagenes[0];
+                contador++;
+            }
+        }
     }
 
     /* LLENA LOS JUEGOS DEL MENU PRINCIPAL CON LOS JUEGOS QUE ESTAN EN LA BASE DE DATOS JSON */
     function poblarMenu(jsonObj){
-        console.log(jsonObj);
         for(var i = 0; (i < 16) && (i < jsonObj.juegos.length) ; i++){
-            console.log(i)
             document.getElementById("juegocontenido" + (i+1)).style.display = "inline-block";
             document.getElementById("imagenjuegocontenido" + (i+1)).src = jsonObj.juegos[(jsonObj.juegos.length - 1) - i].imagentapa;
             document.getElementById("textojuegocontenido" + (i+1)).textContent = jsonObj.juegos[(jsonObj.juegos.length - 1) - i].nombre;
@@ -105,7 +109,6 @@ window.addEventListener('load', () => {
 
     function cargarPaginacion(jsonObj) { 
         for(var i = 0; (i < ((Math.floor(jsonObj.juegos.length / 16)) + 1)) && (i < 5); i++){
-            console.log(i);
             document.getElementById("pageopcion" + (i+1)).style.display = "list-item";
             document.getElementById("textopageopcion" + (i+1)).textContent = (i+1);
             document.getElementById("textopageopcion" + (i+1)).setAttribute('href', location.pathname.substring(0, location.pathname.lastIndexOf('/') + 1) +'subidos/'+(i+1)+".html");
