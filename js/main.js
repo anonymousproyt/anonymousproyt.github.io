@@ -84,8 +84,7 @@ window.addEventListener('load', () => {
 
     /* LLENA LOS JUEGOS DEL MENU PRINCIPAL CON LOS JUEGOS QUE ESTAN EN LA BASE DE DATOS JSON */
     function poblarMenu(jsonObj){
-
-        for(var i = 0; (i < 16) && (i < jsonObj.juegos.length - 1) ; i++){
+        for(var i = 0; (i < 16) && (i < jsonObj.juegos.length) ; i++){
             document.getElementById("juegocontenido" + (i+1)).style.display = "inline-block";
             document.getElementById("imagenjuegocontenido" + (i+1)).src = jsonObj.juegos[(jsonObj.juegos.length - 1) - i].imagentapa;
             document.getElementById("textojuegocontenido" + (i+1)).textContent = jsonObj.juegos[(jsonObj.juegos.length - 1) - i].nombre;
@@ -95,15 +94,16 @@ window.addEventListener('load', () => {
 
     function cargarPaginacion(jsonObj) { 
         for(var i = 0; (i < ((Math.floor(jsonObj.juegos.length / 16)) + 1)) && (i < 5); i++){
+            console.log(i);
             document.getElementById("pageopcion" + (i+1)).style.display = "list-item";
             document.getElementById("textopageopcion" + (i+1)).textContent = (i+1);
-            // Si esta en el index general
             document.getElementById("textopageopcion" + (i+1)).setAttribute('href', location.pathname.substring(0, location.pathname.lastIndexOf('/') + 1) +'subidos/'+(i+1)+".html");
             if(i == 1){
                 document.getElementById("pageopciond").setAttribute('href', location.pathname.substring(0, location.pathname.lastIndexOf('/') + 1) +'subidos/'+(i+1)+".html");
             }
             if(i == 0){
                 document.getElementById("textopageopcion" + (i+1)).setAttribute('href',location.pathname);
+                document.getElementById("pageopciond").setAttribute('href',location.pathname);
             }
         }
         document.getElementById("pageopcioni").setAttribute('href',location.pathname);
