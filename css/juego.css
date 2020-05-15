@@ -237,51 +237,43 @@ body{
 
 /* RESPONSIVE */
 
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     #menuPrincipal,
     footer{
-        width: 1030px !important;
+        width: 100% !important;
     }
-    .carrousel{
-        width: 790px !important;
+    #descripcion,
+    #descripcionTitulo{
+        margin-left: 30px;
+    }
+    #descripcion{
+        margin-right: 40px;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 1199.98px) {
-    .carrousel{
-        margin-top: -10px !important;
-        width: 790px !important;
-    }
     #menuPrincipal{
-        margin-top: -40px;
-        width: 894px !important;
+        width: 100% !important;
     }
+    
+}
+
+@media (max-width: 1026px) {
+    
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 992px) {
-    .carrousel{
-        width: 740px !important;
-        height: 100% !important;
-    }
-}
-
-@media (max-width: 1199.98px) {
-    #menuPrincipal{
-        width: 669px !important;
+    #contenedorPrincipal{
+        width: 100% !important;
     }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 768px) {
-    .carrousel{
-        display: none;
-    }
-    #menuPrincipal{
-        margin-top: 50px;
-    }
     #navbarTogglerDemo01{
         margin-top: 12px;
         text-align: center;
@@ -294,6 +286,6 @@ body{
 
 @media (max-width: 680px) {
     #menuPrincipal{
-        width: 445px !important;
+        width: 100% !important;
     }
 }

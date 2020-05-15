@@ -5,7 +5,7 @@
         <title></title>
         <meta name="viewport" content="width=device-width, user-scalable=no"/>
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="./css/styles.css"/>
+        <link rel="stylesheet" href="./css/juego.css"/>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
 
         <!-- Mis Scripts -->
@@ -54,7 +54,7 @@
                         </div>
                     </li>
                 </ul>
-                <div class="mr-2 my-2 my-lg-0 bg-graybuscador rounded p-1">
+                <div id="buscador" class="mr-2 my-2 my-lg-0 bg-graybuscador rounded p-1">
                     <input id="textoBuscarJuego" class="ml-2 mr-sm-2 bg-transparent border-0 text-white borrar-contorno" type="text" placeholder="Buscar">
                     <button class="bg-transparent border-0 borrar-contorno mr-2" onclick="buscar()"><img class="w-16px mb-3px" src="./icons/search.svg" alt="Lupa"/></button>
                 </div>
@@ -65,8 +65,8 @@
 
         <!-- CONTENIDO JUEGO -->
 
-        <div class="w-65 mx-auto bg-graycontenido mb-4 rounded-bottom">
-            <div class="py-5 px-4">
+        <div id="contenedorPrincipal" class="w-65 mx-auto bg-graycontenido mb-4 rounded-bottom">
+            <div id="menuPrincipal" class="py-5 px-4">
                 <div class="d-flex justify-content-center">
                     <img id="imagentapa" class="tamanioOpcion mr-4 my-auto shadow" src="" alt="tapaJuego">
                     <div class="align-middle my-auto w-53">
@@ -93,7 +93,7 @@
                 </div>
                 <p class="text-center mt-4"><strong>Requisitos:</strong><br></p>
                 <p id="requisitos" class="text-center respetarSaltosDeLinea"></p>
-                <p class="mt-5 mb-0"><strong>Descripción:</strong></p>
+                <p id="descripcionTitulo" class="mt-5 mb-0 "><strong>Descripción:</strong></p>
                 <p id="descripcion" class="respetarSaltosDeLinea"></p>
                 <div id="carouselExampleControls" class="carousel slide h-100 mt-5" data-ride="carousel">
                     <div class="carousel-inner h-100">
