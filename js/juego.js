@@ -51,10 +51,10 @@ window.addEventListener('load', () => {
         var contenidoGenero = "";
         for(var i = 0;i < juego.genero.length;i++){
             if((juego.genero[i] != "ultimos") && (juego.genero[i] != "mejores") && (juego.genero[i] != "pocos recursos") && (juego.genero[i] != "emulados") && (juego.genero[i] != "indie") && (juego.genero[i] != "early access") && (juego.genero[i] != "plataformas")){
-                contenidoGenero = contenidoGenero + juego.genero[i];
-                if(i < (juego.genero.length - 1)){
+                if(contenidoGenero != ""){
                     contenidoGenero = contenidoGenero + ", ";
-                }
+                }       
+                contenidoGenero = contenidoGenero + juego.genero[i];
             }
         }
         document.getElementById("genero").textContent = contenidoGenero;

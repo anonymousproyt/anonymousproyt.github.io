@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Anonymous Pro</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no"/>
+        <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="../../css/styles.css"/>
+        <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+
+        <!-- Mis Scripts -->
+        <script type="text/javascript" src="../../js/genero.js"></script>
+    </head>
+    <body>
+    
+        <!-- BARRA SUPERIOR -->
+
+        <nav id="barra-superior" class="navbar navbar-expand-md navbar-light bg-darkgray">
+            <div class=" w-100 mx-auto">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a id="irAInicio" class="text-white text-decoration-none font-blacklisted ml-2 notranslate" href="../../index.html">Anonymous Pro</a>
+                <ul class="navbar-nav ml-3 mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            GENERO
+                        </a>
+                        <div class="dropdown-menu bg-darkgray" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-white" href="../../genero/accion/1.html">Acción</a>
+                            <a class="dropdown-item text-white" href="../../genero/aventura/1.html">Aventura</a>
+                            <a class="dropdown-item text-white" href="../../genero/conduccion/1.html">Conducción</a>
+                            <a class="dropdown-item text-white" href="../../genero/deportes/1.html">Deportes</a>
+                            <a class="dropdown-item text-white" href="../../genero/estrategia/1.html">Estrategia</a>
+                            <a class="dropdown-item text-white" href="../../genero/lucha/1.html">Lucha</a>
+                            <a class="dropdown-item text-white" href="../../genero/simulacion/1.html">Simulación</a>
+                            <a class="dropdown-item text-white" href="../../genero/rol/1.html">Rol</a>
+                            <a class="dropdown-item text-white" href="../../genero/terror/1.html">Terror</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            SECCIONES
+                        </a>
+                        <div class="dropdown-menu bg-darkgray" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-white" href="../../secciones/ultimos/1.html">Ultimos</a>
+                            <a class="dropdown-item text-white" href="../../secciones/mejores/1.html">Mejores</a>
+                            <a class="dropdown-item text-white" href="../../secciones/pocosrecursos/1.html">Pocos recursos</a>
+                            <a class="dropdown-item text-white" href="../../secciones/emulados/1.html">Emulados</a>
+                            <a class="dropdown-item text-white" href="../../secciones/indie/1.html">Indie</a>
+                            <a class="dropdown-item text-white" href="../../secciones/early access/1.html">Early Access</a>
+                            <a class="dropdown-item text-white" href="../../secciones/plataformas/1.html">Plataformas</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="mr-2 my-2 my-lg-0 bg-graybuscador rounded p-1">
+                    <input id="textoBuscarJuego" class="ml-2 mr-sm-2 bg-transparent border-0 text-white borrar-contorno" type="text" placeholder="Buscar">
+                    <button class="bg-transparent border-0 borrar-contorno mr-2" onclick="buscar()"><img class="w-16px mb-3px" src="../../icons/search.svg" alt="Lupa"/></button>
+                </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- MENU PRINCIPAL -->
+
+        <div class="my-auto py-0">
+            <div class="w-65 mx-auto p-0 bg-transparent">
+
+                <!-- JUEGOS -->
+
+                <div id="contenedorJuegos">
+                    <button id="juegocontenido1" class="opcionJuego rounded" onclick="irAJuego(1)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido1" src="" class="tamanioOpcion rounded" alt="Imagen 1">
+                        <p id="textojuegocontenido1" class="w-200px text-center mt-1 h-50px overflow-hidden"></p>
+                    </button>
+                    <button id="juegocontenido2" class="opcionJuego rounded" onclick="irAJuego(2)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido2" src="" class="tamanioOpcion rounded" alt="Imagen 2">
+                        <p id="textojuegocontenido2" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 12 121 dfdsfsd</p>
+                    </button>
+                    <button id="juegocontenido3" class="opcionJuego rounded" onclick="irAJuego(3)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido3" src="" class="tamanioOpcion rounded" alt="Imagen 3">
+                        <p id="textojuegocontenido3" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 12 121 dfdsfsd</p>
+                    </button>
+                    <button id="juegocontenido4" class="opcionJuego rounded" onclick="irAJuego(4)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido4" src="" class="tamanioOpcion rounded" alt="Imagen 4">
+                        <p id="textojuegocontenido4" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 12 121 dfdsfsd</p>
+                    </button>
+                    <button id="juegocontenido5" class="opcionJuego rounded" onclick="irAJuego(5)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido5" src="" class="tamanioOpcion rounded" alt="Imagen 5">
+                        <p id="textojuegocontenido5" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 12 121 dfdsfsd</p>
+                    </button>
+                    <button id="juegocontenido6" class="opcionJuego rounded" onclick="irAJuego(6)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido6" src="" class="tamanioOpcion rounded" alt="Imagen 6">
+                        <p id="textojuegocontenido6" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 12 121 dfdsfsd</p>
+                    </button>
+                    <button id="juegocontenido7" class="opcionJuego rounded" onclick="irAJuego(7)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido7" src="" class="tamanioOpcion rounded" alt="Imagen 7">
+                        <p id="textojuegocontenido7" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 12 121 dfdsfsd</p>
+                    </button>
+                    <button id="juegocontenido8" class="opcionJuego rounded" onclick="irAJuego(8)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido8" src="" class="tamanioOpcion rounded" alt="Imagen 8">
+                        <p id="textojuegocontenido8" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 12 121 dfdsfsd</p>
+                    </button>
+                    <button id="juegocontenido9" class="opcionJuego rounded" onclick="irAJuego(9)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido9" src="" class="tamanioOpcion rounded" alt="Imagen 9">
+                        <p id="textojuegocontenido9" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 dsn</p>
+                    </button>
+                    <button id="juegocontenido10" class="opcionJuego rounded" onclick="irAJuego(10)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido10" src="" class="tamanioOpcion rounded" alt="Imagen 10">
+                        <p id="textojuegocontenido10" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 12 121 dfdsfsd</p>
+                    </button>
+                    <button id="juegocontenido11" class="opcionJuego rounded" onclick="irAJuego(11)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido11" src="" class="tamanioOpcion rounded" alt="Imagen 11">
+                        <p id="textojuegocontenido11" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 12 121 dfdsfsd</p>
+                    </button>
+                    <button id="juegocontenido12" class="opcionJuego rounded" onclick="irAJuego(12)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido12" src="" class="tamanioOpcion rounded" alt="Imagen 12">
+                        <p id="textojuegocontenido12" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 12 121 dfdsfsd</p>
+                    </button>
+                    <button id="juegocontenido13" class="opcionJuego rounded" onclick="irAJuego(13)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido13" src="" class="tamanioOpcion rounded" alt="Imagen 13">
+                        <p id="textojuegocontenido13" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 12 121 dfdsfsd</p>
+                    </button>
+                    <button id="juegocontenido14" class="opcionJuego rounded" onclick="irAJuego(14)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido14" src="" class="tamanioOpcion rounded" alt="Imagen 14">
+                        <p id="textojuegocontenido14" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 12 121 dfdsfsd</p>
+                    </button>
+                    <button id="juegocontenido15" class="opcionJuego rounded" onclick="irAJuego(15)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido15" src="" class="tamanioOpcion rounded" alt="Imagen 15">
+                        <p id="textojuegocontenido15" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 12 121 dfdsfsd</p>
+                    </button>
+                    <button id="juegocontenido16" class="opcionJuego rounded" onclick="irAJuego(16)">
+                        <div class="resaltado rounded"></div>
+                        <img id="imagenjuegocontenido16" src="" class="tamanioOpcion rounded" alt="Imagen 16">
+                        <p id="textojuegocontenido16" class="w-200px text-center mt-1 h-50px overflow-hidden">Call of Duty Modern Warfare Mobile 121 12 121 dfdsfsd</p>
+                    </button>
+                </div>
+
+                <!-- PAGINACION -->
+
+                <nav class="d-flex justify-content-center">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a id="pageopcioni" class="page-link bg-graycontenido border-0 display-none" href="#" aria-label="Previous">
+                                <span aria-hidden="true"><</span>
+                            </a>
+                        </li>
+                        <li id="pageopcion1" class="page-number page-item display-none"><a id="textopageopcion1" class="page-link bg-graycontenido text-white border-0" href="#">1</a></li>
+                        <li id="pageopcion2" class="page-number page-item display-none"><a id="textopageopcion2" class="page-link bg-graycontenido text-white border-0" href="#">2</a></li>
+                        <li id="pageopcion3" class="page-number page-item display-none"><a id="textopageopcion3" class="page-link bg-graycontenido text-white border-0" href="#">3</a></li>
+                        <li id="pageopcion4" class="page-number page-item display-none"><a id="textopageopcion4" class="page-link bg-graycontenido text-white border-0" href="#">4</a></li>
+                        <li id="pageopcion5" class="page-number page-item display-none"><a id="textopageopcion5" class="page-link bg-graycontenido text-white border-0" href="#">5</a></li>
+                        <li class="page-item">
+                            <a id="pageopciond" class="page-link bg-graycontenido border-0 display-none" href="#" aria-label="Next">
+                                <span aria-hidden="true">></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="w-65 mx-auto p-3 bg-graycontenido rounded-top text-white text-center">
+            <span>&copy; 2020 Anonymous Pro - Descarga juegos gratis </span>
+            <button id="footer-youtube">
+                <a href="https://www.youtube.com/channel/UC3rqWSYHdjj5umitlVCtShA">
+                    <img id="footer-youtube-imagen" src="../../icons/youtube.svg" alt="Youtube"/>
+                </a>
+            </button>
+            <p>Correo: anonymousproyt@gmail.com</p>
+        </footer>
+
+        <script type="text/javascript" src="../../jquery/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
