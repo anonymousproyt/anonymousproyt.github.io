@@ -406,6 +406,102 @@
           ]
         }
       ]
+    },
+    {
+      "id": "13",
+      "destacado": "no",
+      "nombre": "The Planner Farming",
+      "descripcion": "The Planner Farming, Tu abuelo recientemente fallecido que deja destartalada la granja vieja, y a usted le toca para ponerla de nuevo en forma. Acepta el reto y sigue los pasos de tu abuelo. Emplea a el personal, compra de nuevos edificios, vehiculos y cultivos, y el ganado lechero para aumentar sus ganancias y finalmente restaurar el proyecto de agricultura a su antiguo esplendor.",
+      "genero": [
+        "simulacion",
+        "pocos recursos"
+      ],
+      "fechalanzamiento": "29/10/2013",
+      "fechaactualizacion": "29/10/2013",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles, Portugués, Francés, Alemán, Italiano",
+      "tamanio": "401 Megas",
+      "imagentapa": "./images/tapas/13.jpg",
+      "imagenes": [
+        "./images/juegos/13/1.jpg",
+        "./images/juegos/13/2.jpg",
+        "./images/juegos/13/3.jpg",
+        "./images/juegos/13/4.jpg"
+      ],
+      "requisitos": "Procesador Athlon®/Pentium IV® a 2 GHz o similar\n2 GB de RAM\nTarjeta gráfica 3D de 512 MB con DirectX 9.0 y compatible con Shader 3.0 o superior\nTarjeta de sonido\nTeclado\nRatón con rueda de desplazamiento\nConexión a Internet para activar el juego",
+      "descargas": [
+        {
+          "version": "Versión 1",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/gc8MhAq"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "destacado": "no",
+      "nombre": "Farmer’s Dynasty",
+      "descripcion": "Jamás has podido olvidar los días de infancia que pasaste en la granja de tu abuelo, como los ratos que compartiste con él mientras arabais los campos con el tractor. Los años de duro trabajo en la ciudad no han logrado que olvidases los viejos tiempos, y, por fin, has vuelto a la granja para cumplir el sueño que jamás te abandonó: reconstruir la granja del abuelo y comenzar una nueva dinastía.",
+      "genero": [
+        "simulacion",
+        "rol"
+      ],
+      "fechalanzamiento": "21/11/2019",
+      "fechaactualizacion": "17/12/2019",
+      "idiomavoces": "Español, Ingles",
+      "idiomatextos": "Español, Ingles, Portugués, Francés, Alemán, Italiano",
+      "tamanio": "6,2 G",
+      "imagentapa": "./images/tapas/14.jpg",
+      "imagenes": [
+        "./images/juegos/14/1.jpg",
+        "./images/juegos/14/2.jpg",
+        "./images/juegos/14/3.jpg",
+        "./images/juegos/14/4.jpg"
+      ],
+      "requisitos": "Mínimos:\nSistema Operativo: Windows 7, 8, 10\nProcesador: Intel Core2Duo | AMD X2, min. 2.2 GHz\nMemoria: 4 Gigas de RAM\nGráficos: DirectX 11 compatible GPU, mínimo. 1.5 Gigas de VRAM\nTarjetas: AMD Radeon HD 7000 series | NVIDIA GeForce GTX 500 series)\nDirectX: Versión 11\nAlmacenamiento: 10 Gigas de espacio disponible\n\nRecomendados:\nSistema Operativo: Windows 10\nProcesador: Intel i5 | AMD X4, min. 2.8 GHz\nMemoria: 8 Gigas de RAM\nGráficos: AMD R9 300 series | NVIDIA GeForce GTX 900 series | 2 Gigas de VRAM\nDirectX: Versión 11\nAlmacenamiento: 10 Gigas de espacio disponible",
+      "descargas": [
+        {
+          "version": "Versión CODEX",
+          "descripcion": "",
+          "enlaces" : [
+            "https://ouo.io/Ouzmmm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "destacado": "si",
+      "nombre": "Farm Together",
+      "descripcion": "En Farm Together podrás cultivar plantas, plantar árboles, cuidar a los animales, y mucho más; Gástate el dinero ganado con el sudor de tu frente en nuevos edificios y decoraciones para tu granja; Gana experiencia y desbloquea nuevos elementos y edificios.\nGestiona tu granja por ti solo, permite la entrada sólo a tus amigos, o ábrela al público y empieza a cultivar juntos; Con su sencillo sistema de permisos, podrás limitar lo que pueden hacer los desconocidos, para que puedan resultar de ayuda sin riesgos de ser vandalizados.\nPersonaliza tu granja y tu aspecto: Tienes multitud de elementos de personalización a tu disposición: Vallas, carreteras, edificios, decoraciones… ¡Muestra tus habilidades de jardinería y decoración a tus vecinos!",
+      "genero": [
+        "simulacion",
+        "indie"
+      ],
+      "fechalanzamiento": "11/10/2018",
+      "fechaactualizacion": "23/04/2020",
+      "idiomavoces": "Ingles",
+      "idiomatextos": "Español, Ingles, Portugués, Francés, Alemán, Italiano",
+      "tamanio": "619 Megas",
+      "imagentapa": "./images/tapas/15.jpg",
+      "imagenes": [
+        "./images/juegos/15/1.jpg",
+        "./images/juegos/15/2.jpg",
+        "./images/juegos/15/3.jpg",
+        "./images/juegos/15/4.jpg"
+      ],
+      "requisitos": "Mínimos:\nSistemas Operativos: Windows Vista o mas reciente.\nProcesador: Dual Core\nMemoria: 2 Gigas de RAM\nGráficos: Tarjetas con soporte para DirectX 10\n\nRecomendados:\nSistemas Operativos: Windows 7 o mas reciente.\nProcesador: Quad core\nMemoria: 6 Gigas de RAM\nGráficos: GeForce 960 o mejores\nDirectX: Versión 11",
+      "descargas": [
+        {
+          "version": "Versión Build 23.04.2020",
+          "descripcion": "Incluye:\n\nDLC: Oregano Pack\nDLC: Paella Pack\nDLC: Oxygen Pack\nDLC: Sugarcane Pack\nDLC: Laurel Pack\nDLC: Chickpea Pack\nDLC: Mistletoe Pack\nDLC: México (Jalapeño Pack)\nDLC: Ginger Pack\nDLC: Wasabi Pack\nDLC: Supporters Pack",
+          "enlaces" : [
+            "https://ouo.io/SNayiF"
+          ]
+        }
+      ]
     }
   ]
 }
